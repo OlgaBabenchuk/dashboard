@@ -1,0 +1,57 @@
+.c-nav {
+	width: 130px;
+	height: 1200px;
+	background-image: url(/img/bg_01.png);	
+}
+
+.c-nav__avatar {
+	text-align: center;
+	margin-top: 31px;
+	margin-bottom: 30px;
+	position: relative;
+}
+
+.c-nav__avatar__mails {
+	position: absolute;
+	left: 77px;
+	bottom: 76px;
+	text-shadow: $mails_chack_text-shadow;
+}
+
+.c-nav__tabs {
+	width: 100%;
+	height: 81px;
+	text-align: center;
+	position: relative;
+	padding-top: 30px;
+}
+
+.c-nav__tabs:hover {
+	background-image: url(/icons/aktiv.svg);
+	background-repeat: no-repeat;
+}
+
+.c-nav__tabs a {
+	color: $c-nav__tabs_text;
+}
+
+.c-nav__tabs a:hover {
+	color: #fff;
+}
+
+.c-nav__tree-poins {
+	height: 20px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.c-nav__tabs__mais {
+	position: absolute;
+	left: 75px;
+	bottom: 75px;
+	text-shadow: $mails_chack_text-shadow;
+}
+
+.c-nav__tabs-down {
+	margin-top: 310px;
+}

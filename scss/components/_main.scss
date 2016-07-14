@@ -1,0 +1,57 @@
+body {
+	width: 1580px;
+	height: 1200px;
+	margin: 0 auto;
+	font-family: 'Roboto', sans-serif;
+}
+
+ a {
+	text-decoration: none;
+ }
+
+.c--left {
+	float: left;
+
+	span { display: inline-block}
+
+	p { display: inline-block}
+}
+
+.c--right {
+	float: right;
+}
+
+.c--clear {
+	clear: both;
+}
+
+.wrap {
+	margin: 0 auto;
+}
+
+.c-common-mails {
+	width: 31px;
+	height: 31px;
+	text-align: center;
+	line-height: 31px;
+	vertical-align: center;
+	border-radius: 50%;
+	background-color: $mails_chack_bg;
+	color: $mails_chack_text;
+	display: inline-block;
+}
+
+.c-common-mails--grey {
+	background-color: $mails_chack_bg-2;
+}
+
+.c-common-mails--green {
+	background-color: $mails_chack_bg-3;
+}
+
+.btn {
+	width: auto;
+	text-align: center;
+	line-height: 100%;
+	vertical-align: center;
+}

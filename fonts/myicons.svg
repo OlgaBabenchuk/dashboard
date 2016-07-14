@@ -1,0 +1,66 @@
+<?xml version="1.0" standalone="no"?> 
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <font id="myicons" horiz-adv-x="45">
+    <font-face font-family="myicons"
+      units-per-em="111" ascent="111"
+      descent="0" />
+    <missing-glyph horiz-adv-x="0" />
+    <glyph glyph-name="aktiv"
+      unicode="&#xEA01;"
+      horiz-adv-x="45" d="" />
+    <glyph glyph-name="arrow-down"
+      unicode="&#xEA02;"
+      horiz-adv-x="45" d="" />
+    <glyph glyph-name="arrow-right"
+      unicode="&#xEA03;"
+      horiz-adv-x="45" d="" />
+    <glyph glyph-name="arrow-up"
+      unicode="&#xEA04;"
+      horiz-adv-x="45" d="" />
+    <glyph glyph-name="arrow-w"
+      unicode="&#xEA05;"
+      horiz-adv-x="45" d="" />
+    <glyph glyph-name="board"
+      unicode="&#xEA06;"
+      horiz-adv-x="45" d="" />
+    <glyph glyph-name="clock"
+      unicode="&#xEA07;"
+      horiz-adv-x="45" d="" />
+    <glyph glyph-name="coment"
+      unicode="&#xEA08;"
+      horiz-adv-x="45" d="" />
+    <glyph glyph-name="logout"
+      unicode="&#xEA09;"
+      horiz-adv-x="45" d="" />
+    <glyph glyph-name="pick"
+      unicode="&#xEA0A;"
+      horiz-adv-x="45" d="" />
+    <glyph glyph-name="plus"
+      unicode="&#xEA0B;"
+      horiz-adv-x="45" d="" />
+    <glyph glyph-name="points"
+      unicode="&#xEA0C;"
+      horiz-adv-x="45" d="M244.5 0C213.864 0 189 24.864 189 55.5C189 86.136 213.864 111 244.5 111C275.136 111 300 86.136 300 55.5C300 24.864 275.136 0 244.5 0zM22.5 0C-8.136 0 -33 24.864 -33 55.5C-33 86.136 -8.136 111 22.5 111C53.136 111 78 86.136 78 55.5C78 24.864 53.136 0 22.5 0zM-199.5 0C-230.136 0 -255 24.864 -255 55.5C-255 86.136 -230.136 111 -199.5 111C-168.864 111 -144 86.136 -144 55.5C-144 24.864 -168.864 0 -199.5 0z" />
+    <glyph glyph-name="projects"
+      unicode="&#xEA0D;"
+      horiz-adv-x="45" d="" />
+    <glyph glyph-name="refresh-w"
+      unicode="&#xEA0E;"
+      horiz-adv-x="45" d="" />
+    <glyph glyph-name="refresh"
+      unicode="&#xEA0F;"
+      horiz-adv-x="45" d="" />
+    <glyph glyph-name="search"
+      unicode="&#xEA10;"
+      horiz-adv-x="45" d="" />
+    <glyph glyph-name="settings"
+      unicode="&#xEA11;"
+      horiz-adv-x="45" d="" />
+    <glyph glyph-name="upgrad"
+      unicode="&#xEA12;"
+      horiz-adv-x="45" d="" />
+  </font>
+</defs>
+</svg>
