@@ -5,19 +5,31 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
+* {
+	box-sizing: border-box;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	list-style-type: none;
+	margin-top: 30px;
+}
+
  a {
 	text-decoration: none;
  }
 
-.c--left {
+//.c--left 
+.float-left {
 	float: left;
-
-	span { display: inline-block}
-
-	p { display: inline-block}
 }
 
-.c--right {
+//.c--right
+.float-right {
 	float: right;
 }
 
@@ -25,33 +37,35 @@ body {
 	clear: both;
 }
 
-.wrap {
-	margin: 0 auto;
-}
+//c-common-mails
+.count {
+	display: block;
 
-.c-common-mails {
-	width: 31px;
-	height: 31px;
+	vertical-align: middle;
 	text-align: center;
-	line-height: 31px;
-	vertical-align: center;
+
 	border-radius: 50%;
+
 	background-color: $mails_chack_bg;
 	color: $mails_chack_text;
-	display: inline-block;
 }
 
-.c-common-mails--grey {
-	background-color: $mails_chack_bg-2;
-}
-
-.c-common-mails--green {
-	background-color: $mails_chack_bg-3;
+//c-common-mails--grey
+.count--grey {
+	background-color: $circle-btn-bg-2;
 }
 
 .btn {
-	width: auto;
-	text-align: center;
-	line-height: 100%;
-	vertical-align: center;
+	padding: 5px 25px;
+	//text-align: center;
+}
+
+.alignment {
+	width: 45px;
+	height: 5px;
+	margin: 0 auto;
+}
+
+.overflow {
+	overflow: hiden;
 }

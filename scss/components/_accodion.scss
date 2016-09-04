@@ -1,0 +1,168 @@
+//ACCORDION
+
+.main-content {
+	width: 100%;
+	height: 1020px;
+
+	border-right: 1px solid #d3d7da;
+	border-bottom: 1px solid #d3d7da;
+	box-shadow: inset 0 0 3px rgba(255, 255, 255, 0.59);
+}
+
+.accordion-box {
+	width: 64%;
+	height: 94%;
+
+	border: 1px solid #d3d7da;
+	box-shadow: inset 0 0 3px rgba(255, 255, 255, 0.59);
+	border-radius: 3px;
+
+	margin: 2% 1% 2% 2%;
+}
+
+.accordion {
+	overflow: auto;
+}
+
+.accordion__item {
+	width: 100%;
+	height: 74px;
+
+	border-bottom: 1px solid #d3d7da;
+	box-shadow: inset 0 0 3px rgba(255, 255, 255, 0.59);
+}
+
+.accordion__item h2 {
+	font-size: 22px;
+	font-weight: 400;
+
+	line-height: 74px;
+	vertical-align: middle;
+
+	color: #c1c1c1;
+	text-shadow: 0 1px 2px rgba(255, 255, 255, 0.31);
+
+	padding: 0 0 0 5%;
+	margin: 0;
+	display: inline-block;
+}
+
+.accordion-header {
+	width: 100%;
+	height: 74px;
+
+	display: block;
+	text-decoration: none;
+
+	border-bottom: 1px solid #d3d7da;	
+}
+
+.accordion__filling-title {
+	max-width: 40%;
+	color: #4b4b4b;
+	font-weight: 400;
+	font-size: 22px;
+	text-shadow: 0 1px 2px rgba(255, 255, 255, 0.31);
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.accordion__filling-title :after {
+
+}
+
+.accordion li {
+	margin: 0;
+}
+
+.accordion__prolapse {
+	height: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.accordion__prolapse:target {
+	height: auto;
+	transition: 1s;
+
+}
+	
+.accordion__item span {
+	display: inline-block;
+}
+
+.accordion__item-btn {
+
+}	
+
+
+
+//.accordion-describtion
+.accordion__filling {
+	max-width: 50%;
+	padding: 18px 0 0 20px;
+}
+
+.accordion__icons {
+	display: inline-block;
+
+}
+
+.accordion__round-btn {
+	display: inline-block;
+}
+
+.c-page__project-list--gray {
+	background-color: #ccc;  
+
+}
+
+.percentage-text {
+	width: 50px;
+	height: 33px;
+	color: $mails_chack_text;
+	background-color: $mails_chack_bg;
+	text-shadow: $main_text-shadow;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 5px;
+	background-color: #ff503f;
+
+}
+
+.percentage--grey {
+
+}
+
+.percentage-block {
+	display: inline-block;
+}
+
+.aligne {
+	line-height: 100%;
+	vertical-align: middle;
+}
+
+.accordion .accordion-icons  {
+	color: #a6a6a6;
+	vertical-align: middle;
+
+	margin-left: 0;
+	margin-right: 5px;
+	padding: 9px;
+ 
+}
+
+.accordion__store-launch {
+	color: #4b4b4b;
+	font-weight: 600;
+	font-size: 14px;
+	text-shadow: 0 1px 2px rgba(255, 255, 255, 0.31);
+	text-transform: uppercase;
+	
+	
+}
+
+.last-element {
+	margin-right: 30px;
+}

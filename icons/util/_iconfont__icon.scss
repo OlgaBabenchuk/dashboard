@@ -1,3 +1,5 @@
+$global-font-icon: '<%= fontName %>';
+
 @font-face {
  font-family: $global-font-icon;
  src:url("<%= fontPath %><%= fontName %>.eot");

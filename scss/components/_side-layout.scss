@@ -1,57 +1,86 @@
-.c-nav {
+.nav {
 	width: 130px;
 	height: 1200px;
+
+	padding-top: 30px;
+
 	background-image: url(/img/bg_01.png);	
 }
 
-.c-nav__avatar {
+.nav__tabs {
 	text-align: center;
-	margin-top: 31px;
-	margin-bottom: 30px;
-	position: relative;
+	
+	span {
+		font-weight: 600;
+		letter-spacing: 2px;
+		color: $nav__tabs_text;
+	}
+
+	.nav-icons {
+		padding-top: 15px;
+		margin-bottom: 20px;
+
+		font-size: 45px;
+
+		color: $nav__tabs_text;
+	}
 }
 
-.c-nav__avatar__mails {
-	position: absolute;
-	left: 77px;
-	bottom: 76px;
-	text-shadow: $mails_chack_text-shadow;
-}
 
-.c-nav__tabs {
-	width: 100%;
-	height: 81px;
-	text-align: center;
-	position: relative;
-	padding-top: 30px;
-}
-
-.c-nav__tabs:hover {
+.nav__tabs:hover {	
 	background-image: url(/icons/aktiv.svg);
 	background-repeat: no-repeat;
+
+	span {
+		color: #fff;
+	}
+
+	.nav-icons {
+		color: $mails_chack_bg;
+	}
 }
 
-.c-nav__tabs a {
-	color: $c-nav__tabs_text;
+.nav-items--wrap {
+	width: 130px;
+	height: 120px;
+	
+	text-align: center;
+
+	margin: 0 auto;	
+	position: relati
 }
 
-.c-nav__tabs a:hover {
-	color: #fff;
+.separator-points {
+	width: $separator-size;
+	height: $separator-size;
+
+	background-color: $separator-bg;
+	border-radius: 100%;
+	margin: 25px auto;
+	box-shadow: $separator-size*2 0px 0 0px $separator-bg, -($separator-size*2) 0px 0 0px $separator-bg;
+	
 }
 
-.c-nav__tree-poins {
-	height: 20px;
-	padding-top: 3px;
-	padding-bottom: 3px;
+.nav__avatar-count {
+	position: absolute;
+	top: 0;
+	right: 0;
+
+	text-shadow: $main_text-shadow;
 }
 
-.c-nav__tabs__mais {
+.nav-count {
+	width: $circle-btn-small-size;
+	height: $circle-btn-small-size;
+	padding: 4%;
+
 	position: absolute;
 	left: 75px;
-	bottom: 75px;
-	text-shadow: $mails_chack_text-shadow;
+	bottom: 86px;
+
+	text-shadow: $main_text-shadow;
 }
 
-.c-nav__tabs-down {
-	margin-top: 310px;
+.nav__last-tab {
+	margin-top: 200px;
 }

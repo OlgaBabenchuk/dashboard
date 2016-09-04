@@ -17,8 +17,8 @@
 @mixin grey-circle {
 	width: 34px;
 	height: 34px;
-	border: 1px solid rgba(164, 164, 164, 0.53);
-	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.52);
+	border: 1px solid rgba(164, 164, 164, .53);
+	box-shadow: 0 1px 0 rgba(255, 255, 255, .52);
 	border-radius: 50%;
 	display: inline-block;
 }

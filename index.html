@@ -8,225 +8,378 @@
 </head>
 <body>
 	
-	<div class="wrap">
-		<div class="c-nav c--left"><!-- c-head-nav -->
-			<div class="c-nav__avatar ">
-				<img src="img/nav-avatar.png" alt="avatar">
-				<div class="c-nav__avatar__mails c-common-mails">2</div>
-			</div>
 
-			<div class="c-nav__tree-poins c-nav__tabs">
-				<a href="#">
-					<img src="/icons/points.svg" alt="points">
-				</a>
-			</div>
+	<!--   SIDE NAV   -->
 
-			<div class="c-nav__tabs">
-				<a href="#">
-					<div class="c-nav__tabs__icon">
-						<img src="/icons/board.svg" alt="board">
-					</div>
-					<p>Board</p>
-				</a>
-			</div>
+	<div class="nav float-left"> 
+		<div class="nav-items--wrap">
+			<img src="img/nav-avatar.png" alt="avatar">
+			<div class="nav__avatar-count count nav-count">2</div>
+		</div>
+		
+		<div class="alignment">
+			<div class="separator-points"></div>			
+		</div>
 
-			<div class="c-nav__tree-poins c-nav__tabs">
-				<a href="#">
-					<img src="/icons/points.svg" alt="points">
-				</a>
-			</div>
 
-			<div class="c-nav__tabs">
-				<a href="#">			
-					<div class="c-nav__tabs__icon">
-						<img src="/icons/projects.svg" alt="projects">
-					</div>
-					<div class="c-nav__tabs__mais c-common-mails c-common-mails--grey">9</div>	
-					<p>Project</p>
-				</a>
-			</div>
-
-			<div class="c-nav__tree-poins c-nav__tabs">
-				<a href="#">
-					<img src="/icons/points.svg" alt="points">
-				</a>
-			</div>
-
-			<div class="c-nav__tabs">
-				<a href="#">
-					<div class="c-nav__tabs__icon">
-						<img src="/icons/settings.svg" alt="setting">
-					</div>
-					<p>Setting</p>
-				</a>
-			</div>
-
-			<div class="c-nav__tabs c-nav__tabs-down">
-				<a href="#">
-					<div class="c-nav__tabs__icon">
-						<img src="/icons/upgrad.svg" alt="upgrade">
-					</div>
-					<div class="c-nav__tabs__mais c-common-mails">3</div>
-					<p>Upgrade</p>
-				</a>
-			</div>
-
-			<div class="c-nav__tree-poins c-nav__tabs">
-				<a href="#">
-					<img src="/icons/points.svg" alt="points">
-				</a>
-			</div>
-
-			<div class="c-nav__tabs">
-				<a href="#">
-					<div class="c-nav__tabs__icon">
-						<img src="/icons/logout.svg" alt="logout">
-					</div>
-					<p>Logout</p>
-				</a>
-			</div>
-		</div> <!-- c-head-nav -->
-
-		<div class="c-page wrap c--right"> <!-- main page -->
-
-			<div class="c-page__top">
-				<div class="c--left">
-					<div class="c-common-mails big-circle">
-						<img src="/icons/refresh-w.svg" alt="refresh">
-					</div>
-					<div class="c-page__btn btn">
-						<p>Dashboard</p>
-					</div>
-				</div>
-				<div class="c--right">
-					<div class="c-common-mails c-common-mails--green big-circle">
-						<img src="/icons/arrow-w.svg" alt="arrow-w">
-					</div>
-					<div class="c-page__btn btn c-page__top-btn">
-						<img src="/icons/coment.svg" alt="coment">
-						<p>5 USER ONLINE</p>
-						<img src="/icons/arrow-down.svg" alt="arrow">
-					</div>
-				</div>
-			</div>
-
-			<div class="c--clear">
-				<div class="c-pages__tabs c-pages__tab-1 c--left">
+		<ul class="nav-vertical__tabs">
+			<li class="nav__tabs">	
+				<div class="nav-items--wrap">
 					<a href="#">
-						<img src="/icons/clock.svg" alt="watch">
-						<p>Actine Projects</p>
-						<div class="c-common-mails c-common-mails--grey c-pages__tabs-mail">9</div>
+						<div class="nav-icons icon -board"></div>
+						<span>Board</span>
 					</a>
 				</div>
+			</li>
 
-				<div class="c-pages__tabs c-pages__tab-2 c--left">
-					<a href="#">
-						<img src="/icons/pick.svg" alt="watch">
-						<p>Messenger</p>
-						<div class="c-common-mails c-pages__tabs-mail">2</div>
+			<li class="alignment">
+				<div class="separator-points"></div>
+			</li>
+
+			<li class="nav__tabs">
+				<div class="nav-items--wrap">
+					<a href="#">	
+						<div class="nav-count count count--grey">9</div>	
+						<div class="nav-icons icon -menu"></div>
+						<span>Project</span>
 					</a>
 				</div>
-				<div class="c-pages__tabs-last c--left">
-					<p>Search Project, User, Task, etc...</p>
+			</li>
+
+			<li class="alignment">
+				<div class="separator-points"></div>
+			</li>			
+
+			<li class="nav__tabs">
+				<div class="nav-items--wrap">
+					<a href="#">
+						<div class="nav-icons icon -settings"></div>
+						<span>Setting</span>
+					</a>
+				</div>	
+			</li>
+
+			<li class="nav__tabs nav__last-tab">
+				<div class="nav-items--wrap">
+					<a href="#">
+						<div class="nav-icons icon -atom"></div>
+						<div class="nav-count count">3</div>
+						<span>Upgrade</span>
+					</a>
 				</div>
+			</li>
+
+			<li class="alignment">
+				<div class="separator-points"></div>
+			</li>
+			
+			<li class="nav__tabs">
+				<div class="nav-items--wrap">
+					<a href="#">
+						<div class="nav-icons icon -off"></div>
+						<span>Logout</span>
+					</a>
+				</div>
+			</li>
+
+		</ul>
+
+	</div> 
+	<!--   END SIDE NAV   -->
+
+
+
+	<!--   TOP MAIN PAGE   -->
+
+	<div class="float-left">
+
+			<div class="page__top">				
+				<a href="http://localhost:3000" class="round-btn count icon -reload"></a>
+				<a class="square-btn btn">
+					<span>Dashboard</span>
+				</a>
+					<div class="float-right">
+						<a href="#" class="count round-btn-green round-btn icon -arrow-down"></a>
+						<select name="users" class="square-btn btn drop-down__btn">
+							<option value="default">5 users online</option>
+							<option value="Mark">Mark P.</option>
+							<option value="Marvin">Marvin S.</option>
+							<option value="Sebastian">Sebastian K.</option>
+							<option value="Philip">Philip O.</option>
+							<option value="Benni">Benni I.</option>
+						</select>
+					</div>
 			</div>
+	</div>	
+
+			<div class="tabs">
+				<div class="search-tab">
+					<h2>Search Project, User, Task, etc...</h2>
+				
+					<div class="page__tabs float-left">
+						<a href="#">
+							<div class="tab__icons icon -clock"></div>
+							<span>Actine Projects</span>
+							<div class="count count--grey page__tabs-count">9</div>
+						</a>
+					</div>
+
+					<div class="page__tabs pages__tab-2 float-left">
+						<a href="#">
+							<div class="tab__icons icon -plain"></div>
+							<span>Messenger</span>
+							<div class="count page__tabs-count">2</div>
+						</a>
+					</div>						
+			</div> 
+
+		</div>            
+
+		<!--   END TOP MAIN PAGE   -->
 
 
-			<div class="c-page__project">
-				<div class="c-page__project--block_1 c--left">
+		<!--   ACCORDION   -->
+			<section class="main-content">
+				<div class="accordion-box float-left">
 
-					<div class="c-page__project-list">
-						<span>Search Project, User, Task, etc...</span>
-						<div class="c--right c-page__project-list_box">
-							<div class="c-page__btn btn c-page__top-btn ">
-								<p><b>New Projects</b> (descending)</p>
-								<img src="/icons/arrow-down.svg" alt="arrow">
+					<div class="accordion__item">
+						<h2>Search Project, User, Task, etc...</h2>
+
+						<div class="accordion__item-btn float-right">
+							<div class="square-btn btn drop-down__btn">
+								<div><b>New Projects</b> (descending)</div>
+								<div class="accordion__icons icon -arrow-down"></div>
 							</div>
-							<div class="c-common-mails big-circle">
-								<img src="/icons/plus.svg" alt="refresh">
+							<div class="accordion__round-btn count round-btn icon -plus"></div>
+						</div>
+					</div>
+
+					<ul class="accordion">
+
+						<li>
+							<a href="#accordion__item-1" class="accordion-header">	
+								<span class="accordion__filling float-left">
+									<div class="percentage-block percentage-text">23%</div>
+									<span class="accordion__filling-title">Create Contact Formular</span>
+								</span>
+
+								<span class="accordion__filling float-right">					
+									<span class="accordion__store-launch square-btn btn">worlda</span>
+									<span class=" search-circle accordion-icons -search icon"></span>
+									<span class="search-circle accordion-icons icon -arrow-down last-element"></span>
+								</span>								
+							</a>
+
+							<div id="accordion__item-1" class="accordion__prolapse">
+								<div class="accordion__filling accordion__item float-left">
+									<div class="percentage-block percentage-text percentage--grey">	66%</div>
+									<span>Creating the Context</span>
+								</div>
+								<div class="accordion__filling accordion__item float-left">
+									<div class="percentage-block percentage-text percentage--grey">66%</div>
+									<span>Creating the Context</span>
+								</div>
 							</div>
-						</div>
-					</div>
+						</li>
 
-					<div class="c-page__project-list">
-						<div class="c--left">
-							<div class="c-page__project-percentage percentsge">23%</div>
-							<p>Create Contact Formular</p>
-						</div>
-						<div class="c--right c-page__project-list_box">
-							<div class="c-page__btn btn c-page__top-btn ">
-								<span><b>WORLLDA</b></span>
+						<li>
+							<a href="#accordion__item-2" class="accordion-header">	
+								<span class="accordion__filling float-left">
+									<div class="percentage-block percentage-text">87%</div>
+									<span class="accordion__filling-title">Create Subpage PSD</span>
+								</span>
+
+								<span class="accordion__filling float-right">					
+									<span class="accordion__store-launch square-btn btn">panorama</span>
+									<span class=" search-circle accordion-icons -search icon"></span>
+									<span class="search-circle accordion-icons icon -arrow-down last-element"></span>
+								</span>								
+							</a>
+
+							<div id="accordion__item-2" class="accordion__prolapse">
+								<div class="accordion__filling accordion__item float-left">
+									<div class="percentage-block percentage-text percentage--grey">	66%</div>
+									<span>Creating the Context</span>
+								</div>
+								<div class="accordion__filling accordion__item float-left">
+									<div class="percentage-block percentage-text percentage--grey">66%</div>
+									<span>Creating the Context</span>
+								</div>
 							</div>
-							<div class="search-circle"></div>
-							<div class="arrow-circle"></div>
-						</div>
-					</div>
-					
-					<div class="c-page__project-list">
-						<div class="c--left">
-							<span class="c-page__project-percentage percentsge">87%</span>
-							<p>Create Subpage PSD</p>
-						</div>
-					</div>
+						</li>
 
-					<div class="c-page__project-list">
-						<div class="c--left">
-							<span class="c-page__project-percentage percentsge">83%</span>
-							<p>Layout & implementation in HTML & CSS</p>
-						</div>
-					</div>
+						<li>
+							<a href="#accordion__item-3" class="accordion-header">	
+								<span class="accordion__filling float-left">
+									<div class="percentage-block percentage-text">83%</div>
+									<span class="accordion__filling-title">Layout & implementation in HTML & CSS</span>
+								</span>
 
-					<div class="c-page__project-list c-page__project-list--gray">
+								<span class="accordion__filling float-right">					
+									<span class="accordion__store-launch square-btn btn">ebay relaunch</span>
+									<span class=" search-circle accordion-icons -search icon"></span>
+									<span class="search-circle accordion-icons icon -arrow-down last-element"></span>
+								</span>								
+							</a>
+
+							<div id="accordion__item-3" class="accordion__prolapse">
+								<div class="accordion__filling accordion__item float-left">
+									<div class="percentage-block percentage-text percentage--grey">	66%</div>
+									<span>Creating the Context</span>
+								</div>
+								<div class="accordion__filling accordion__item float-left">
+									<div class="percentage-block percentage-text percentage--grey">66%</div>
+									<span>Creating the Context</span>
+								</div>
+							</div>
+						</li>
+
+						<li>
+							<a href="#accordion__item-4" class="accordion-header">	
+								<span class="accordion__filling float-left">
+									<div class="percentage-block percentage-text">23%</div>
+									<span class="accordion__filling-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, dolorem, deleniti?</span>
+								</span>
+
+								<span class="accordion__filling float-right">					
+									<span class="accordion__store-launch square-btn btn">panorama</span>
+									<span class=" search-circle accordion-icons -search icon"></span>
+									<span class="search-circle accordion-icons icon -arrow-down last-element"></span>
+								</span>								
+							</a>
+
+							<div id="accordion__item-4" class="accordion__prolapse">
+								<div class="accordion__filling accordion__item float-left">
+									<div class="percentage-block percentage-text percentage--grey">	66%</div>
+									<span>Creating the Context</span>
+								</div>
+								<div class="accordion__filling accordion__item float-left">
+									<div class="percentage-block percentage-text percentage--grey">66%</div>
+									<span>Creating the Context</span>
+								</div>
+							</div>
+						</li>
+
+						<li>
+							<a href="#accordion__item-5" class="accordion-header">	
+								<span class="accordion__filling float-left">
+									<div class="percentage-block percentage-text">98%</div>
+									<span class="accordion__filling-title">Create Contact Formular</span>
+								</span>
+
+								<span class="accordion__filling float-right">					
+									<span class="accordion__store-launch square-btn btn">wolda</span>
+									<span class=" search-circle accordion-icons -search icon"></span>
+									<span class="search-circle accordion-icons icon -arrow-down last-element"></span>
+								</span>								
+							</a>
+
+							<div id="accordion__item-5" class="accordion__prolapse">
+								<div class="accordion__filling accordion__item float-left">
+									<div class="percentage-block percentage-text percentage--grey">	66%</div>
+									<span>Creating the Context</span>
+								</div>
+								<div class="accordion__filling accordion__item float-left">
+									<div class="percentage-block percentage-text percentage--grey">66%</div>
+									<span>Creating the Context</span>
+								</div>
+							</div>
+						</li>
+
+						<li>
+							<a href="#accordion__item-6" class="accordion-header">	
+								<span class="accordion__filling float-left">
+									<div class="percentage-block percentage-text">45%</div>
+									<span class="accordion__filling-title">Create Contact Formular</span>
+								</span>
+
+								<span class="accordion__filling float-right">					
+									<span class="accordion__store-launch square-btn btn">wolda</span>
+									<span class=" search-circle accordion-icons -search icon"></span>
+									<span class="search-circle accordion-icons icon -arrow-down last-element"></span>
+								</span>								
+							</a>
+
+							<div id="accordion__item-6" class="accordion__prolapse">
+								<div class="accordion__filling accordion__item float-left">
+									<div class="percentage-block percentage-text percentage--grey">	66%</div>
+									<span>Creating the Context</span>
+								</div>
+								<div class="accordion__filling accordion__item float-left">
+									<div class="percentage-block percentage-text percentage--grey">66%</div>
+									<span>Creating the Context</span>
+								</div>
+							</div>
+						</li>
+
+						<li>
+							<a href="#accordion__item-7" class="accordion-header">	
+								<span class="accordion__filling float-left">
+									<div class="percentage-block percentage-text">72%</div>
+									<span class="accordion__filling-title">Create Contact Formular</span>
+								</span>
+
+								<span class="accordion__filling float-right">					
+									<span class="accordion__store-launch square-btn btn">wolda</span>
+									<span class=" search-circle accordion-icons -search icon"></span>
+									<span class="search-circle accordion-icons icon -arrow-down last-element"></span>
+								</span>								
+							</a>
+
+							<div id="accordion__item-7" class="accordion__prolapse">
+								<div class="accordion__filling accordion__item float-left">
+									<div class="percentage-block percentage-text percentage--grey">	66%</div>
+									<span>Creating the Context</span>
+								</div>
+								<div class="accordion__filling accordion__item float-left">
+									<div class="percentage-block percentage-text percentage--grey">66%</div>
+									<span>Creating the Context</span>
+								</div>
+							</div>
+						</li>
+
+						<li>
+							<div class="">
+								<p>Project Archiv</p>
+							</div>
+						</li>
+
+						
+
+					</ul>
+				</div>
+			</section>
+	
+					<div class="accordion__item c-page__project-list--gray">
 						<div class="c--left">
-							<div class="c-page__project-percentage percentsge percentsge--grey">66%</div>
+							<div class="percentage-block percentage percentsge--grey">66%</div>
 							<p>Creating theContext</p>
 						</div>
 					</div>
 
-					<div class="c-page__project-list c-page__project-list--gray">
+					<div class="accordion__item c-page__project-list--gray">
 						<div class="c--left">
-							<div class="c-page__project-percentage percentsge percentsge--grey">READY</div>
+							<div class="percentage-block percentage percentsge--grey">READY</div>
 							<p>Imlementation in the Layout</p>
 						</div>
 					</div>
-
-					<div class="c-page__project-list">
+					
+			
+					<div class="accordion__item">
 						<div class="c--left">
-							<div class="c-page__project-percentage percentsge">23%</div>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, ad, hic!</p>
-						</div>
-					</div>
-
-					<div class="c-page__project-list">
-						<div class="c--left">
-							<div class="c-page__project-percentage percentsge">98%</div>
+							<div class="percentage-block percentage">98%</div>
 							<p>Create Contact Formular</p>
 						</div>
 					</div>
 
-					<div class="c-page__project-list">
-						<div class="c--left">
-							<div class="c-page__project-percentage percentsge">98%</div>
-							<p>Create Contact Formular</p>
-						</div>
-					</div>
+				</div>
 
-					<div class="c-page__project-list">
-						<div class="c--left">
-							<div class="c-page__project-percentage percentsge">98%</div>
-							<p>Create Contact Formular</p>
-						</div>
-					</div>
-
-					<div class="">
-						<p>Project Archiv</p>
-						<img src="/icons/arrow-side.svg" alt="arrow">
-					</div>
-					</div>
+		<!--   END ACCARDION   -->
 
 
-		<!--  user's list  -->
-					<div class="users-list-box c--right"> 
+		<!--  USER'S LIST -->
+				<section>
+					<aside class="users-list-box float-left"> 
 						<div class="c-page__project-list">
 							<div class="users-list-img">
 								<img src="/img/face-big-1.png" alt="face">
@@ -339,11 +492,9 @@
 						</div>
 						<span>Activity Archiv </span>
 						<img src="/icons/arrow-right.svg" alt="arrow">
-					</div>
-				</div>
-			</div>
-		</div> <!-- end main page -->
-
+					</aside>   
+				</div> 
+			</section>   
 
 	
 </body> 
